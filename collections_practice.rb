@@ -50,5 +50,5 @@ while x < nums.length
 a += nums[x]
 x += 1 
 end 
-return x 
+return a 
 end 
