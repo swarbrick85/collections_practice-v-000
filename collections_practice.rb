@@ -60,5 +60,5 @@ array.map do |element|
 element = "#{element}s"
 end 
 array.insert(1, b)
-end 
+return array 
 end 
