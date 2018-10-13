@@ -55,5 +55,5 @@ end
 
 def add_s(array)
 b = array[1]
-
+array.delete_at
 end 
