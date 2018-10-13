@@ -33,4 +33,4 @@ def kesha_maker(array)
   return y 
 end 
 
-def 
+def find_a
