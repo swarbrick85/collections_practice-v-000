@@ -55,5 +55,9 @@ end
 
 def add_s(array)
 b = array[1]
-array.delete_at
+array.delete_at(1) 
+array.map do |element|
+element = "#{element}s"
+end 
+
 end 
