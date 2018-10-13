@@ -58,7 +58,7 @@ y = []
 b = array[1]
 array.delete_at(1) 
 array.collect do |element|
-y<<"#{element}s"
+y << "#{element}s"
 end 
 y.insert(1, b)
 return array 
