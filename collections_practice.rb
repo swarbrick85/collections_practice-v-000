@@ -59,5 +59,6 @@ array.delete_at(1)
 array.map do |element|
 element = "#{element}s"
 end 
-array.insert(2, b)
+array.insert(1, b)
+end 
 end 
