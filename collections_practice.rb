@@ -52,3 +52,7 @@ x += 1
 end 
 return a 
 end 
+
+def add_s(array)
+
+end 
