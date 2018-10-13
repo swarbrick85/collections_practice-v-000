@@ -27,5 +27,8 @@ def kesha_maker(array)
   array.each do |string| 
     a = string.split
     a[2] = $
-    b = 
+    b = a.join
+    y<<b 
+  end 
+  return y 
 end 
