@@ -36,5 +36,5 @@ end
 def find_a(array)
 y = []
 array.each do |string| 
-
+if string start_with?
 end 
