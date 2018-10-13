@@ -54,5 +54,6 @@ return a
 end 
 
 def add_s(array)
+b = array[1]
 
 end 
