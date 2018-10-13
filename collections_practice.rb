@@ -8,6 +8,5 @@ end
 
 def sort_array_char_count(strings)
   strings = strings.sort_by {|x| x.length}  
-  end 
   return strings 
 end 
