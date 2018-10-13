@@ -54,11 +54,12 @@ return a
 end 
 
 def add_s(array)
+y = []
 b = array[1]
 array.delete_at(1) 
-array.map do |element|
-element = "#{element}s"
+array.collect do |element|
+y<<"#{element}s"
 end 
-array.insert(1, b)
+y.insert(1, b)
 return array 
 end 
