@@ -61,5 +61,5 @@ array.collect do |element|
 y << "#{element}s"
 end 
 y.insert(1, b)
-return array 
+return y 
 end 
