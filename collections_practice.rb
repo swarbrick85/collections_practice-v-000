@@ -43,3 +43,12 @@ end
 return y 
 end 
 
+def sum_array(nums)
+a = 0 
+x = 0 
+while x < nums.length 
+a += nums[x]
+x += 1 
+end 
+return x 
+end 
